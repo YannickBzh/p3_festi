@@ -27,3 +27,9 @@
 .btn-primary:focus {
     box-shadow: none;
 }
+
+/* Alignement texte header */
+
+#align {
+    margin-top: 150px;
+}
