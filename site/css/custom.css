@@ -1,0 +1,29 @@
+
+/* Couleur barre de navigation */
+
+.bg-primary {
+    background-color: #ED6A5A !important;
+}
+
+/* Photo header */
+
+.jumbotron {
+    background-image: url('../img/slide.jpg');
+    background-size: cover;
+    min-height: 600px;
+  }
+
+/* Boutons */
+
+  .btn-primary {
+    background-color: #ED6A5A;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9BC1BC;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
