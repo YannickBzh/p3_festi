@@ -31,5 +31,9 @@
 /* Alignement texte header */
 
 #align {
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.text-sm-center {
+    margin-top: 55px;
 }
