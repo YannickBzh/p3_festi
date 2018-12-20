@@ -11,6 +11,10 @@
     background-image: url('../img/slide.jpg');
     background-size: cover;
     min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 /* Boutons */
@@ -36,4 +40,43 @@
 
 .text-sm-center {
     margin-top: 55px;
+}
+
+/* Section présentation des 4 soirées */
+
+.color1 {
+    background-color: #ED6A5A
+}
+
+.color2 {
+    background-color: #9BC1BC
+}
+
+.img-thumbnail {
+    height: 300px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-group {
+    margin: auto;
+}
+
+.btn-adapt {
+    padding-bottom: 5%;
+}
+
+.btn-warning {
+    background-color: #F4F1BB;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #E6EBE0;
+    border: none;
+}
+
+.btn-warning:focus {
+box-shadow: none;
 }
