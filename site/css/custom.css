@@ -106,6 +106,22 @@ box-shadow: none;
     background-color: #ED6A5A;
 }
 
+.btn-secondary {
+    background-color: #F4F1BB;
+    border: none;
+    color: #212529;
+}
+
+.btn-secondary:hover {
+    background-color: #E6EBE0;
+    border: none;
+    color: #212529;
+}
+
+.btn-secondary:focus {
+box-shadow: none;
+}
+
 /*///////////////////////*/
 /* CAROUSEL */
 /*///////////////////////*/
@@ -116,6 +132,18 @@ box-shadow: none;
     width: 20%;
     color: white;
     opacity: none;
+}
+
+/*///////////////////////*/
+/* FOOTER */
+/*///////////////////////*/
+
+#footer-color {
+    background-color: #ED6A5A;
+}
+
+a {
+    color: #212529;
 }
 
 /*///////////////////////*/
