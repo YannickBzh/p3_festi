@@ -1,9 +1,16 @@
+/*///////////////////////*/
+/* BARRE DE MENU */
+/*///////////////////////*/
 
 /* Couleur barre de navigation */
 
 .bg-primary {
     background-color: #ED6A5A !important;
 }
+
+/*///////////////////////*/
+/* HEADER */
+/*///////////////////////*/
 
 /* Photo header */
 
@@ -17,9 +24,9 @@
     background-size: cover;
   }
 
-/* Boutons */
+/* Boutons header */
 
-  .btn-primary {
+.btn-primary {
     background-color: #ED6A5A;
     border: none;
 }
@@ -42,8 +49,16 @@
     margin-top: 55px;
 }
 
-/* Section présentation des 4 soirées */
+.img-center {
+    display: block;
+    margin: auto;
+}
 
+/*///////////////////////*/
+/* SECTION PRESENTATION DES 4 SOIREES */
+/*///////////////////////*/
+
+/* Couleur background des blocs soirées */
 .color1 {
     background-color: #ED6A5A
 }
@@ -52,6 +67,7 @@
     background-color: #9BC1BC
 }
 
+/* Ajustement taille des affiches de films */
 .img-thumbnail {
     height: 300px;
     width: 250px;
@@ -59,6 +75,7 @@
     margin-left: auto;
 }
 
+/* Customisation des boutons (alignement, couleur) */
 .btn-group {
     margin: auto;
 }
@@ -80,3 +97,27 @@
 .btn-warning:focus {
 box-shadow: none;
 }
+
+/*///////////////////////*/
+/* CTA CONTACT */
+/*///////////////////////*/
+
+#background-color {
+    background-color: #ED6A5A;
+}
+
+
+/*///////////////////////*/
+/* MEDIA QUERIES */
+/*///////////////////////*/
+
+/* Padding top du texte "Le festival de cinéma de votre ville" */
+@media (max-width: 768px) {
+.text-padding {
+    padding-top: 8%;
+    }    
+/* Alignement au centre du texte h1 du header */ 
+.text-sm-center {
+    text-align: center;
+    }
+}    
