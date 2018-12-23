@@ -1,3 +1,7 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+                                   /* PAGE ACCUEIL*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
 /*///////////////////////*/
 /* BARRE DE MENU */
 /*///////////////////////*/
@@ -14,7 +18,7 @@
 
 /* Photo header */
 
-.jumbotron {
+#slide-accueil {
     background-image: url('../img/slide.jpg');
     background-size: cover;
     min-height: 600px;
@@ -160,3 +164,100 @@ a {
     text-align: center;
     }
 }    
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+                                   /* PAGE LISTE DES FILMS*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////*/
+/* HEADER */
+/*///////////////////////*/
+
+/* Photo header */
+
+#slide-films {
+    background-image: url('../img/slide-films.jpg');
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*///////////////////////*/
+/* SECTION TABS */
+/*///////////////////////*/
+
+.card-header {
+    padding: 0;
+}
+  
+.nav-tabs {
+    margin: -1px;
+}
+
+.card-title {
+    margin-left: 50px;
+}
+
+.nav-link {
+    padding: .5rem 7.125rem;
+}
+
+/*///////////////////////*/
+/* MEDIA QUERIES */
+/*///////////////////////*/
+
+@media (max-width: 768px) {
+.nav-link {
+    padding: .5rem 1rem;
+    }    
+
+
+#centre-mobile {
+    padding-top: 8rem!important
+    }
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+                                   /* PAGE CONTACT*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+#slide-contact {
+    background-image: url('../img/slide-contact.jpg');
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*///////////////////////*/
+/* FORMULAIRE + MAP */
+/*///////////////////////*/
+
+#width-text {
+    width: 60%;
+    margin: auto;
+}
+
+/*///////////////////////*/
+/* MEDIA QUERIES */
+/*///////////////////////*/
+
+@media (max-width: 768px) {
+#width-text {
+    width: auto;
+    margin: auto;
+    }
+
+#marge {
+    margin-top: 10%;
+    }    
+}
