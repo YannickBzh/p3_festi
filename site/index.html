@@ -193,7 +193,7 @@
           <div class="container-fluid text-center text-md-left">
             <div class="row">
               <div class="col-md-5 mt-md-0 mt-3">
-                  <a href="#"><img src="img/logo.png" alt="logo" class="main-logo"/></a>
+                  <a><img src="img/logo.png" alt="logo" class="main-logo"/></a>
                   <br></br>
                 <p>Ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, sapien quis laoreet suscipit, sapien augue molestie velit, ut feugiat est metus in diam. Ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
@@ -240,7 +240,7 @@
     </div>  
 
     <!-- Modal -->
-    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -250,16 +250,62 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-              <button type="button" class="btn btn-primary">Sauvegarder</button>
-            </div>
+              <div class="container">
+                <div class="text-center">
+                  <img src="img/logo.png" alt="logo" class="main-logo"/> 
+                </div>
+                <div class="text-center pt-3 border-bottom">
+                  <p>La réservation n'est pas obligatoire mais elle nous permet d'estimer le nombre de personnes présentes aux différentes soirées du festival</p>
+                </div>
+                <div class="pt-3">
+                  <div>
+                    <p>Soirée(s) de votre choix :</p>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 5 Août
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 6 Août
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 7 Août
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 8 Août
+                    </label>
+                  </div>
+                </div>
+                  <div class="form-group row pt-3">
+                    <label for="example-number-input" class="col-6 col-form-label">Nombre de personne(s) :</label>
+                      <div class="col-3">
+                        <input class="form-control" type="number" value="1" id="example-number-input">
+                      </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Envoyer</button>
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="alert alert-success alert-dismissible">
+                        <a  class="close" data-dismiss="modal" aria-label="close">&times;</a>
+                        <strong>Merci !</strong> Votre présence à notre festival est enregistrée
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>  
           </div>
         </div>
       </div>
-      <!-- /Modal -->
+    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
