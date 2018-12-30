@@ -14,7 +14,7 @@
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a href="#"><img src="img/logo.png" alt="logo" class="main-logo"/></a>
+        <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html"><img src="img/logo.png" alt="logo" class="main-logo"/></a>
         <button class="navbar-toggler col-md-4" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +22,7 @@
           <div class="navbar-nav text-center">
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html">Accueil <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/films.html">Liste des films</a>
-            <a class="nav-item nav-link" href="#actualites">Actualités</a>
+            <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html#actu">Actualités</a>
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/contact.html">Contact</a>
           </div>
         </div>
@@ -82,9 +82,9 @@
     <!-- /Formulaire + Map -->
 
 
+    <!-- Footer -->
     <div class="mt-5" id="footer-color">
       <div class="container">    
-      <!-- Footer -->
         <footer class="page-footer font-small pt-4">
           <div class="container-fluid text-center text-md-left">
             <div class="row">
@@ -103,7 +103,7 @@
                     <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/films.html">Liste des films</a>
                   </li>
                   <li>
-                    <a href="#!">Actualités</a>
+                    <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html#actu">Actualités</a>
                   </li>
                   <li>
                     <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/contact.html">Contact</a>
@@ -130,80 +130,93 @@
           <div class="footer-copyright text-center py-3">©2018 Copyright
             <a>RocketBiz</a>
           </div>
-          <!-- Copyright -->
+          <!-- /Copyright -->
         </footer>
       </div>
-    </div>
-      
-    <!-- Footer -->
+    </div> 
+    <!-- /Footer -->
 
     <!-- Modal -->
     <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Réservez votre soirée</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="text-center">
-                  <img src="img/logo.png" alt="logo" class="main-logo"/> 
-                </div>
-                <div class="text-center pt-3 border-bottom">
-                  <p>La réservation n'est pas obligatoire mais elle nous permet d'estimer le nombre de personnes présentes aux différentes soirées du festival</p>
-                </div>
-                <div class="pt-3">
-                  <div>
-                    <p>Soirée(s) de votre choix :</p>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Réservez votre soirée</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="text-center">
+                <img src="img/logo.png" alt="logo" class="main-logo"/> 
+              </div>
+              <div class="text-center pt-3 mb-3 border-bottom">
+                <p>La réservation n'est pas obligatoire mais elle nous permet d'estimer le nombre de personnes présentes aux différentes soirées du festival</p>
+              </div>
+              <form>
+                <div class="form-row">
+                  <div class="col-md-6">
+                    <input type="text" class="form-control mb-3" placeholder="Prénom">
                   </div>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 5 Août
-                    </label>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control mb-3" placeholder="Nom">
                   </div>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 6 Août
-                    </label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 7 Août
-                    </label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 8 Août
-                    </label>
+                  <div class="form-group col-md-12">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                   </div>
                 </div>
-                  <div class="form-group row pt-3">
-                    <label for="example-number-input" class="col-6 col-form-label">Nombre de personne(s) :</label>
-                      <div class="col-3">
-                        <input class="form-control" type="number" value="1" id="example-number-input">
-                      </div>
-                  </div>
+              </form>
+              </div>
+              <div class="pt-3">
+                <div>
+                  <p>Soirée(s) de votre choix :</p>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Envoyer</button>
-                  <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
-                      <div class="alert alert-success alert-dismissible">
-                        <a  class="close" data-dismiss="modal" aria-label="close">&times;</a>
-                        <strong>Merci !</strong> Votre présence à notre festival est enregistrée
-                      </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 5 Août
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 6 Août
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 7 Août
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 8 Août
+                  </label>
+                </div>
+              </div>
+                <div class="form-group row pt-3">
+                  <label for="example-number-input" class="col-6 col-form-label">Nombre de personne(s) :</label>
+                    <div class="col-3">
+                      <input class="form-control" type="number" value="1" id="example-number-input">
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Envoyer</button>
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="alert alert-success alert-dismissible">
+                      <a  class="close" data-dismiss="modal" aria-label="close">&times;</a>
+                      <strong>Merci !</strong> Votre présence à notre festival est enregistrée
                     </div>
                   </div>
                 </div>
-              </div>  
+              </div>
             </div>  
-          </div>
+          </div>  
         </div>
       </div>
-    <!-- /Modal -->
+    </div>
+  <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

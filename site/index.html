@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+     <!-- <link rel="stylesheet" href="css/main.css"> -->
   </head>
   <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a href="#"><img src="img/logo.png" alt="logo" class="main-logo"/></a>
+        <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html"><img src="img/logo.png" alt="logo" class="main-logo"/></a>
         <button class="navbar-toggler col-md-4" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +23,7 @@
           <div class="navbar-nav text-center">
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/index.html">Accueil <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/films.html">Liste des films</a>
-            <a class="nav-item nav-link" href="#actualites">Actualités</a>
+            <a class="nav-item nav-link" href="#actu">Actualités</a>
             <a class="nav-item nav-link" href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/contact.html">Contact</a>
           </div>
         </div>
@@ -119,14 +120,14 @@
         </div>
         <div class="col-md-5 col-xl-5 ml-auto text-center">
           <div class="btn-group btn-adapt" role="group" aria-label="Callout buttons">
-            <button type="button" class="btn btn-secondary btn-lg text-black" data-toggle="modal" data-target="#">Nous contacter</button>
+            <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/contact.html" class="btn btn-secondary btn-lg text-black">Nous Contacter</a>
           </div>
         </div>
       </div>  
     <!-- /CTA Contact -->
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-5" id="actu">
     <!-- Bloc Actualités -->
       <div class="text-center">
         <h2>Actualités</h2>
@@ -183,7 +184,7 @@
           </a>
         </div>
       </div>      
-    <!-- Bloc Actualités -->    
+    <!-- /Bloc Actualités -->    
     </div>
 
     <div class="mt-5" id="footer-color">
@@ -207,7 +208,7 @@
                     <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/films.html">Liste des films</a>
                   </li>
                   <li>
-                    <a href="#!">Actualités</a>
+                    <a href="#actu">Actualités</a>
                   </li>
                   <li>
                     <a href="file:///Users/home/Desktop/OpenClassrooms/Projet3/Festival_film_de_plein_air/site/contact.html">Contact</a>
@@ -233,9 +234,9 @@
           <div class="footer-copyright text-center py-3">©2018 Copyright
             <a>RocketBiz</a>
           </div>
-          <!-- Copyright -->
+          <!-- /Copyright -->
         </footer>
-      <!-- Footer -->
+      <!-- /Footer -->
       </div>
     </div>  
 
@@ -254,8 +255,22 @@
                 <div class="text-center">
                   <img src="img/logo.png" alt="logo" class="main-logo"/> 
                 </div>
-                <div class="text-center pt-3 border-bottom">
+                <div class="text-center pt-3 mb-3 border-bottom">
                   <p>La réservation n'est pas obligatoire mais elle nous permet d'estimer le nombre de personnes présentes aux différentes soirées du festival</p>
+                </div>
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control mb-3" placeholder="Prénom">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control mb-3" placeholder="Nom">
+                    </div>
+                    <div class="form-group col-md-12">
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                    </div>
+                  </div>
+                </form>
                 </div>
                 <div class="pt-3">
                   <div>
