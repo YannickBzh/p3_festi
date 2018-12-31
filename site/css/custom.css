@@ -8,9 +8,9 @@
 
 /* Couleur barre de navigation */
 
-.bg-primary {
+/*.bg-primary {
     background-color: #ED6A5A !important;
-}
+}*/
 
 /*///////////////////////*/
 /* HEADER */
@@ -63,22 +63,22 @@
 /*///////////////////////*/
 
 /* Couleur background des blocs soirées */
-.color1 {
+/*.color1 {
     background-color: #ED6A5A
 }
 
 .color2 {
     background-color: #9BC1BC
-}
+}*/
 
 /* Ajustement taille des affiches de films */
-.img-thumbnail {
+/*.img-thumbnail {
     height: 300px;
     width: 250px;
     margin-right: auto;
     margin-left: auto;
 }
-
+*/
 /* Customisation des boutons (alignement, couleur) */
 .btn-group {
     margin: auto;
@@ -106,9 +106,9 @@ box-shadow: none;
 /* CTA CONTACT */
 /*///////////////////////*/
 
-#background-color {
+/*#background-color {
     background-color: #ED6A5A;
-}
+}*/
 
 .btn-secondary {
     background-color: #F4F1BB;
@@ -142,13 +142,13 @@ box-shadow: none;
 /* FOOTER */
 /*///////////////////////*/
 
-#footer-color {
+/*#footer-color {
     background-color: #ED6A5A;
-}
+}*/
 
-a {
+/*a {
     color: #212529;
-}
+}*/
 
 /*///////////////////////*/
 /* MEDIA QUERIES */
