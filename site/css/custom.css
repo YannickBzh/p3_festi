@@ -2,15 +2,10 @@
                                    /* PAGE ACCUEIL*/
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*///////////////////////*/
-/* BARRE DE MENU */
-/*///////////////////////*/
+body, p {
+    font-family: $font-family-sans-serif;
+}
 
-/* Couleur barre de navigation */
-
-/*.bg-primary {
-    background-color: #ED6A5A !important;
-}*/
 
 /*///////////////////////*/
 /* HEADER */
@@ -29,11 +24,6 @@
   }
 
 /* Boutons header */
-
-.btn-primary {
-    background-color: #ED6A5A;
-    border: none;
-}
 
 .btn-primary:hover {
     background-color: #9BC1BC;
@@ -62,23 +52,6 @@
 /* SECTION PRESENTATION DES 4 SOIREES */
 /*///////////////////////*/
 
-/* Couleur background des blocs soirées */
-/*.color1 {
-    background-color: #ED6A5A
-}
-
-.color2 {
-    background-color: #9BC1BC
-}*/
-
-/* Ajustement taille des affiches de films */
-/*.img-thumbnail {
-    height: 300px;
-    width: 250px;
-    margin-right: auto;
-    margin-left: auto;
-}
-*/
 /* Customisation des boutons (alignement, couleur) */
 .btn-group {
     margin: auto;
@@ -105,10 +78,6 @@ box-shadow: none;
 /*///////////////////////*/
 /* CTA CONTACT */
 /*///////////////////////*/
-
-/*#background-color {
-    background-color: #ED6A5A;
-}*/
 
 .btn-secondary {
     background-color: #F4F1BB;
@@ -137,18 +106,6 @@ box-shadow: none;
     color: white;
     opacity: none;
 }
-
-/*///////////////////////*/
-/* FOOTER */
-/*///////////////////////*/
-
-/*#footer-color {
-    background-color: #ED6A5A;
-}*/
-
-/*a {
-    color: #212529;
-}*/
 
 /*///////////////////////*/
 /* MEDIA QUERIES */
@@ -187,35 +144,11 @@ box-shadow: none;
   }
 
 /*///////////////////////*/
-/* SECTION TABS */
-/*///////////////////////*/
-
-.card-header {
-    padding: 0;
-}
-  
-.nav-tabs {
-    margin: -1px;
-}
-
-.card-title {
-    margin-left: 50px;
-}
-
-.nav-link {
-    padding: .5rem 7.125rem;
-}
-
-/*///////////////////////*/
 /* MEDIA QUERIES */
 /*///////////////////////*/
 
+/* Alignement texte " Liste des films" du Header */
 @media (max-width: 768px) {
-.nav-link {
-    padding: .5rem 1rem;
-    }    
-
-
 #centre-mobile {
     padding-top: 8rem!important
     }
@@ -224,8 +157,6 @@ box-shadow: none;
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
                                    /* PAGE CONTACT */
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
 
 
 #slide-contact {
@@ -260,16 +191,4 @@ box-shadow: none;
 #marge {
     margin-top: 10%;
     }    
-}
-
-/*////////////////////////////////////////////////////////////////////////////////////////////*/
-                                   /* MODAL */
-/*////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.border-bottom {
-    border-bottom: 1px solid #e9ecef;
-}
-
-.modal-content {
-    background-color: #E6EBE0;
 }
