@@ -1,2 +1,10 @@
 @import "./_variables.scss";
 @import "./bootstrap/bootstrap.scss";
+
+h1 {
+    font-family: $font-family-title;
+}
+
+.btn-primary:hover {
+    @include btn-primary-hover;
+  }

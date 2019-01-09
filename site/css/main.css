@@ -9511,5 +9511,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4AC1B3;
+  border-color: #4AC1B3;
+}
 
 /*# sourceMappingURL=main.css.map */

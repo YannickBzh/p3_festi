@@ -3,9 +3,15 @@ $body-color: #212529;
 $theme-colors: (
     "primary": #ED6A5A,
     "secondary": blue,
-    "warning": #F4F1BB
+    "warning": #F4F1BB,
 );
 $modal-content-bg: #e6ebe0;
 $modal-backdrop-bg: #ED6A5A;
 $link-color: #212529;
 $font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-title: 'Lobster',cursive;
+@mixin btn-primary-hover($color: #fff, $bg:#4AC1B3, $bc:#4AC1B3) {
+    color: $color;
+    background-color: $bg;
+    border-color: $bc;
+}
