@@ -19,57 +19,6 @@
     background-size: cover;
   }
 
-/* Alignement texte header */
-
-#align {
-    margin-top: 100px;
-}
-
-.text-sm-center {
-    margin-top: 55px;
-}
-
-.img-center {
-    display: block;
-    margin: auto;
-}
-
-/*///////////////////////*/
-/* SECTION PRESENTATION DES 4 SOIREES */
-/*///////////////////////*/
-
-/* Customisation des boutons (alignement, couleur) */
-.btn-group {
-    margin: auto;
-}
-
-.btn-adapt {
-    padding-bottom: 5%;
-}
-
-.btn-warning:hover {
-    background-color: #E6EBE0;
-    border-color: none;
-}
-
-.btn-warning:focus {
-box-shadow: none;
-}
-
-/*///////////////////////*/
-/* CTA CONTACT */
-/*///////////////////////*/
-
-.btn-secondary:hover {
-    background-color: #E6EBE0;
-    border: none;
-    color: #212529;
-}
-
-.btn-secondary:focus {
-box-shadow: none;
-}
-
 /*///////////////////////*/
 /* CAROUSEL */
 /*///////////////////////*/
